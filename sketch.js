@@ -112,8 +112,6 @@ function draw() {
   image(swift, birdX, birdY, 110, 75);
   pop();
 
-  // left over fill statement from somewhere else, leaving it just in case
-  fill(0, 0, 100);
 }
 
 // Press 'c' to clear the canvas trail if it gets too messy
