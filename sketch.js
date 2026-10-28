@@ -109,7 +109,7 @@ function draw () {
   birdY = constrain(birdY, 0, height);
 
   //  TRAIL GENERATION inspired by nyan catt
-  //I used an array to store little particles that appear around the swift. I used random numbers to spread them out, and a loop to draw each one as a small square. The colors cycle through different hues, and the amount of particles changes depending on the sound level and mouse movement. I also snapped their positions to a 6-pixel grid to give the trail a pixel lookk that contarsts from the more neautral colors in the back
+  //I used an array to store little particles that appear around the swift. I used random numbers to spread them out, and draw each one as a small square. The colors cycle through different hues, and the amount of particles changes depending on the sound level and mouse movement. I also snapped their positions to a 6-pixel grid to give the trail a pixel lookk that contarsts from the more neautral colors in the back
   let movement = dist(mouseX, mouseY, pmouseX, pmouseY);
   let amount = 1 + floor(loudness * 40) + floor(constrain(movement / 10, 0, 4));
 
