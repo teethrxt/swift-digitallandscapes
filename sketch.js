@@ -19,7 +19,7 @@ function preload () {
   swift = loadImage("swift.gif");
   sky = loadImage("skyzone.gif");
 
-  // music source: INSERT YOUTUBE LINK HERE
+  // music source: https://www.youtube.com/watch?v=pEmtXsW2bD8
   music = loadSound("music.mp3");
 }
 
