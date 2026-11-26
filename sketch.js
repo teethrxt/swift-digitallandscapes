@@ -1,7 +1,9 @@
 // this is my swift digital landscapes project :) i really wanted to think about swifts and how they stay in chimmenys and in flight for most of thier life and just make some fun stuff for the background in ms paint!
 //it also kinda eludes to the fact that they are endangered, they have so much to go through now to even migrate, theres loss of hisotrical chimmenys, capped metal flutes, and window collsions :(
 // i didnt realize i needed to add controller support for this, so i kept in the mouse stuff too so u can still influence the swift with ur mouse and use arrow keys + controller
-// revised controller support to have more control over the pixels and audio during the performance
+
+//REVISIONS
+//swift can be moved using the left joystick on the controller or the arrow keys on the keyboard. Pressing A (spacebar) generates more pixels, B (C key) clears the pixel trail, X (V key) increases the spread of the pixels, and Y (M key) pauses or resumes the background music. The FLY button activates the microphone and starts the music. Mouse movement also influences the swift's flight path and particle density, while louder sounds increase the swift's speed, the amount and spread of pixels, and change the background's opacity. Multiple buttons can be held at the same time
 // Zach Rashid Art 151 10/26/2026
 
 let controller;
